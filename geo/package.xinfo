@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<landscape_package>
+    <meta>
+        <version>3.0</version>
+        <description>OffFieldRiskLTI scenario 3</description>
+        <target_type>10</target_type>
+        <habitat_types>11, 12, 13, 20, 30, 52, 53, 60, 90, 91, 92, 93</habitat_types>
+        <ROI_extent>323865.9342, 328893.9785000002, 5695295.1943, 5700294.931500001</ROI_extent>
+    </meta>
+    <base>
+        <base_landscape_geometries>LULC.shp</base_landscape_geometries>
+        <feature_id_attribute>ID</feature_id_attribute>
+        <feature_type_attribute>LULCtype_1</feature_type_attribute>
+        <additional_attributes/>
+    </base>
+    <supplementary>
+        <flow_grid deviatingExtent="confirmed">flow.tif</flow_grid>
+        <land_use_raster>lulc.tif</land_use_raster>
+        <analysis_distance_groups>AnalysisBuffer.tif</analysis_distance_groups>
+    </supplementary>
+    <supplementary_shapefiles/>
+</landscape_package>
