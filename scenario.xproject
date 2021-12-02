@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project>
-    <Version>2.0</Version>
+    <Version>3.0</Version>
     <SupportedRuntimeVersions>
-        <Version number="1.4" />
+        <Version variant="xOffFieldSoilRisk" number="1.2.5" />
     </SupportedRuntimeVersions>
     <Description>Scenario 3.</Description>
     <Changelog>
+        <Version number="3.0" date="2021-12-02">
+            <Change author="sascha">First git release</Change>
+        </Version>
         <Version number="2.0" date="2020-09-29">
             <Change author="sascha">Initial individual release of the scenario</Change>
         </Version>
